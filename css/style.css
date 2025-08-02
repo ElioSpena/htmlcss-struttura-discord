@@ -8,3 +8,48 @@
 a {
     color: inherit;
 }
+
+/*COMMON*/
+/*LAYOUT*/
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+/*UTILITES*/
+
+
+/*HEADER*/
+
+header {
+    background-color: lightblue;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-nav {
+    background-color: rgb(57, 194, 148);
+    border: 1px dashed black;
+    padding: 6px;
+}
+
+.logo,
+.login {
+    width: 20%;
+}
+
+.login {
+    justify-content: end;
+}
+
+.link {
+    width: 60%;
+    justify-content: space-evenly;
+}
