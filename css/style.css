@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 /*COMMON*/
 /*LAYOUT*/
 
@@ -124,8 +128,39 @@ header {
 }
 
 /*FOOTER*/
-
+/*FOOTER TOP*/
 .bg-dark {
     background-color: rgb(39, 39, 39);
     border-bottom: 1px solid white;
+    align-items: center;
+
+}
+
+.column-list {
+    max-width: 100%;
+    min-width: 100px;
+    min-height: 400px;
+    background-color: pink;
+    border: 1px dashed rgb(255, 255, 255);
+
+}
+
+.grow {
+    flex-grow: 1;
+    background-color: rgb(84, 84, 218);
+}
+
+/*FOOTER BOTTOM*/
+
+.bg-bottom-footer {
+    background-color: pink;
+}
+
+nav.flex {
+    justify-content: space-between;
+    padding: 12px;
+}
+
+button {
+    cursor: pointer;
 }
