@@ -100,3 +100,17 @@ header {
 .bg-reverse {
     flex-direction: row-reverse;
 }
+
+/*CTA SECTION*/
+
+.cta-section {
+    min-height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-content {
+    background-color: rgb(102, 215, 102);
+    min-height: 600px;
+
+}
